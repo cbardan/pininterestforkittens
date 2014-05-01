@@ -1,4 +1,5 @@
 Pininterestforkittens::Application.routes.draw do
+  get "page/index"
   # get "page/index"
 
   get "/about" => "page#about"
