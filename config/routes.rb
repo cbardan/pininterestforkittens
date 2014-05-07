@@ -1,4 +1,6 @@
 Pininterestforkittens::Application.routes.draw do
+  resources :pins
+
   get "page/index"
   # get "page/index"
 
